@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* index.css */
+html, body {
+    @apply bg-custom-purple; /* Use Tailwind’s bg-gray-100 utility class */
+    margin: 0;
+    height: 100%;
+    width: 100%;
+  }
+
+
+.active{
+  background-color:white;
+  @apply text-custom-purple;
+}
+  
